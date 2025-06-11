@@ -8,6 +8,15 @@ void abertura() {
     printf("*******************************************\n");
 }
 
+void escolha() {
+    printf("Escolha a Opção desejada:\n");
+    printf("1 - Cadastrar Cliente\n");
+    printf("2 - Listar Clientes\n");
+    printf("3 - Sair\n");
+    printf("Opção: ");
+    scanf("%d", &opcao);
+}
+
 int main () {
     opcao;
     abertura();
