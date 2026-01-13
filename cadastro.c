@@ -1,4 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "cadastro.h"
 
+void abertura() {
+    printf("*******************************************\n");
+    printf("**Seja bem-vindo ao cadastro de clientes!**\n");
+    printf("*******************************************\n");
+}
 
 void escolha() {
     printf("Escolha a Opção desejada:\n");
