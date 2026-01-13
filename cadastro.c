@@ -72,4 +72,11 @@ int escolhas() {
     }
 }
 
+int main () {
+    opcao;
+    abertura();
+    escolha();
+    escolhas();
 
+    printf("Obrigado por usar o sistema de cadastro de clientes!\n\n");
+}
